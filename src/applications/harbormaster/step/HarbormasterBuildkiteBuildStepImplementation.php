@@ -96,11 +96,7 @@ EOTEXT
     $data_structure = array(
       'commit' => $object->getBuildkiteCommit(),
       'branch' => $object->getBuildkiteBranch(),
-      'message' => pht(
-        'Harbormaster Build %s ("%s") for %s',
-        $build->getID(),
-        $build->getName(),
-        $buildable->getMonogram()),
+      'message' => $buildable->getContainerObject()->getTitle(),
       'env' => array(
         'HARBORMASTER_BUILD_TARGET_PHID' => $build_target->getPHID(),
       ),

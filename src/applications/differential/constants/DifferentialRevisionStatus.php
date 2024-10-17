@@ -162,7 +162,7 @@ final class DifferentialRevisionStatus extends Phobject {
       self::ABANDONED => array(
         'name' => pht('Abandoned'),
         'legacy' => 4,
-        'icon' => 'fa-plane',
+        'icon' => 'fa-eject',
         'closed' => true,
         'color.icon' => 'black',
         'color.tag' => 'indigo',

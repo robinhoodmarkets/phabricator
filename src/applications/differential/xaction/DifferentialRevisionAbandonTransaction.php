@@ -19,7 +19,7 @@ final class DifferentialRevisionAbandonTransaction
   }
 
   public function getIcon() {
-    return 'fa-plane';
+    return 'fa-eject';
   }
 
   public function getColor() {

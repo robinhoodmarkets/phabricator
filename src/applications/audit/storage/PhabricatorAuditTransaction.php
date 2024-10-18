@@ -150,7 +150,7 @@ final class PhabricatorAuditTransaction
           case PhabricatorAuditActionConstants::ACCEPT:
             return 'fa-check';
           case PhabricatorAuditActionConstants::RESIGN:
-            return 'fa-plane';
+            return 'fa-eject';
           case PhabricatorAuditActionConstants::CLOSE:
             return 'fa-check';
         }

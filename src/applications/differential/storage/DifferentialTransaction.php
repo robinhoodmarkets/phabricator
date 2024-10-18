@@ -413,7 +413,7 @@ final class DifferentialTransaction
           case DifferentialAction::ACTION_REJECT:
             return 'fa-times-circle-o';
           case DifferentialAction::ACTION_ABANDON:
-            return 'fa-plane';
+            return 'fa-eject';
           case DifferentialAction::ACTION_RETHINK:
             return 'fa-headphones';
           case DifferentialAction::ACTION_REQUEST:
